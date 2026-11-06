@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 仅 debug 包允许明文 HTTP，用于本机 mock 接口联调 -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>
